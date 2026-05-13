@@ -79,7 +79,6 @@ export default function App() {
           <div style={styles.sectionKicker}>Cuenta atrás</div>
           <div style={styles.countNumber}>{daysLeft} días</div>
           <p style={styles.muted}>para la Primera Comunión de Hugo</p>
-          <p style={styles.muted}>para la Primera Comunión de Hugo</p>
         </section>
 
         <section id="agenda" style={styles.section}>
