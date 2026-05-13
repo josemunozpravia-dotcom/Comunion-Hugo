@@ -49,6 +49,32 @@ export default function App() {
       </section>
 
       <main style={styles.main}>
+<section style={styles.quickNav}>
+  <a href="#agenda" style={styles.quickItem}>
+    <span style={styles.quickIcon}>📅</span>
+    Agenda
+  </a>
+
+  <a href="#alcala" style={styles.quickItem}>
+    <span style={styles.quickIcon}>🏛️</span>
+    Alcalá
+  </a>
+
+  <a href="#menu" style={styles.quickItem}>
+    <span style={styles.quickIcon}>🍽️</span>
+    Menú
+  </a>
+
+  <a href="#fotos" style={styles.quickItem}>
+    <span style={styles.quickIcon}>📷</span>
+    Fotos
+  </a>
+
+  <a href="#whatsapp" style={styles.quickItem}>
+    <span style={styles.quickIcon}>💬</span>
+    WhatsApp
+  </a>
+</section>
         <section style={styles.countdown}>
           <div style={styles.sectionKicker}>Cuenta atrás</div>
           <div style={styles.countNumber}>Faltan {daysLeft} días</div>
