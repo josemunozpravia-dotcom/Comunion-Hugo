@@ -157,7 +157,14 @@ const border = "#eadfc7";
 const cream = "#f8f3ea";
 const soft = "#fbf7ef";
 const styles = {
- quickNav: {
+ quote: {
+  marginTop: 20,
+  color: "#8b7a67",
+  fontStyle: "italic",
+  fontSize: 18,
+  lineHeight: 1.6,
+},
+  quickNav: {
   display: "grid",
   gridTemplateColumns: "repeat(auto-fit, minmax(140px, 1fr))",
   gap: 16,
