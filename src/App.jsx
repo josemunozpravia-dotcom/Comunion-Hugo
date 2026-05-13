@@ -39,7 +39,7 @@ export default function App() {
           </div>
         </div>
         <div style={styles.photoBox}>
-          <img src="./hugo-portada.jpg" alt="Hugo Muñoz García" style={styles.photo} />
+          <img src="./hugo_portada.jpg" alt="Hugo Muñoz García" style={styles.photo} />
           <div style={styles.photoLabel}>
             <div style={styles.photoSmall}>30 mayo 2026</div>
             <div style={styles.photoBig}>Primera Comunión</div>
