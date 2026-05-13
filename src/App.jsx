@@ -177,7 +177,7 @@ const styles = {
   smallText: { color: "#777", fontSize: 14 },
   qrText: { color: "#ddd", fontSize: 14, lineHeight: 1.5 },
   whatsapp: { background: "#fff", border: `1px solid ${border}`, borderRadius: 32, padding: 42, textAlign: "center", marginBottom: 64 },
-  final: { background: "#fbf7ef", color: "#fff", borderRadius: 32, padding: 40, textAlign: "center", fontSize: 24, fontWeight: 600 },
+  final: { background: "#6f6254", color: "#ffffff", borderRadius: 32, padding: 40, textAlign: "center", fontSize: 24, fontWeight: 600 },
   crossFinal: { color: "#d7bd86", fontSize: 32, marginBottom: 12 },
 };
 
