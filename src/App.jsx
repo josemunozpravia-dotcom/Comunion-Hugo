@@ -104,7 +104,7 @@ export default function App() {
           </div>
         </section>
 
-        <section style={styles.sectionCard}>
+        <section id="menu" style={styles.sectionCard}>
           <h2 style={styles.leftTitle}>Elección de plato principal</h2>
           <p style={styles.paragraph}>Para organizar la comida, podéis indicarnos vuestra elección de plato principal por WhatsApp.</p>
           <div style={styles.grid2}>
@@ -114,7 +114,7 @@ export default function App() {
           <div style={styles.childMenu}><strong>Menú infantil</strong><p style={{ margin: "8px 0 0", color: "#666" }}>Menú infantil disponible para los más pequeños.</p></div>
         </section>
 
-        <section style={styles.sectionCard}>
+        <section id="fotos" style={styles.sectionCard}>
           <h2 style={styles.leftTitle}>Fotos del día</h2>
           <p style={styles.paragraph}>Queremos guardar los mejores recuerdos de la Primera Comunión de Hugo. Durante el evento podréis subir fotos y vídeos a la carpeta compartida de Movistar Cloud.</p>
           <div style={styles.grid2}>
