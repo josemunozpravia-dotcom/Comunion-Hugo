@@ -132,7 +132,7 @@ export default function App() {
           <p style={styles.sectionIntro}>Podéis escribirnos por WhatsApp para cualquier duda o para indicarnos la elección del plato principal.</p>
           <div style={styles.actionsCenter}>
             <a href={`https://wa.me/34659194929?text=${whatsappText}`} target="_blank" rel="noreferrer" style={styles.darkButton}>WhatsApp 659 194 929</a>
-            <a href={`https://wa.me/34626298072?text=${whatsappText}`} target="_blank" rel="noreferrer" style={styles.lightButton}>WhatsApp 626 298 072</a>
+            <a href={`https://wa.me/34626298072?text=${whatsappText}`} target="_blank" rel="noreferrer" style={styles.lightButton}>WhatsApp 626 980 721</a>
           </div>
         </section>
 
