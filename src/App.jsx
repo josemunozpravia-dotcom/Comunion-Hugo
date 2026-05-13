@@ -213,7 +213,7 @@ quickIcon: {
   boxShadow: "0 24px 70px rgba(0,0,0,.13)",
   overflow: "hidden",
 },
-  photo: { width: "100%", height: 520, objectFit: "cover", objectPosition: "center", borderRadius: 26, display: "block" },
+  photo: { width: "100%", height: 520, objectFit: "cover", objectPosition: "center top", borderRadius: 26, display: "block" },
   photoLabel: { position: "absolute", left: "50%", bottom: 30, transform: "translateX(-50%)", width: "78%", background: "rgba(255,255,255,.88)", borderRadius: 24, padding: 16, textAlign: "center", boxShadow: "0 12px 32px rgba(0,0,0,.13)" },
   photoSmall: { color: gold, textTransform: "uppercase", letterSpacing: 3, fontSize: 12 },
   photoBig: { fontWeight: 700, marginTop: 4 },
