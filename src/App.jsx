@@ -92,7 +92,7 @@ export default function App() {
           </div>
         </section>
 
-        <section style={styles.sectionCard}>
+        <section id="alcala" style={styles.sectionCard}>
           <h2 style={styles.leftTitle}>Alcalá de Henares</h2>
           <p style={styles.paragraph}>Para quienes vengáis de fuera, Alcalá de Henares es una ciudad con mucho encanto para disfrutar durante el fin de semana. Su centro histórico, sus calles y su ambiente familiar la convierten en un lugar perfecto para pasear y tomar algo con tranquilidad.</p>
           <h3 style={styles.subheading}>Aparcamientos recomendados</h3>
