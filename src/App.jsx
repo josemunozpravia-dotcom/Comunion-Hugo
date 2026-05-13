@@ -1,4 +1,5 @@
 import React, { useMemo } from "react";
+import hugoPhoto from "./hugo_portada.jpg";
 
 export default function App() {
   const eventDate = useMemo(() => new Date("2026-05-30T11:00:00"), []);
@@ -39,7 +40,7 @@ export default function App() {
           </div>
         </div>
         <div style={styles.photoBox}>
-          <img src="./hugo_portada.jpg" alt="Hugo Muñoz García" style={styles.photo} />
+         <img src={hugoPhoto} alt="Hugo Muñoz García" style={styles.photo} />
           <div style={styles.photoLabel}>
             <div style={styles.photoSmall}>30 mayo 2026</div>
             <div style={styles.photoBig}>Primera Comunión</div>
