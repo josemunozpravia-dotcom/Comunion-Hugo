@@ -162,7 +162,8 @@ const styles = {
 },
 
 quickItem: {
-  background: "#fff",
+  background: "rgba(255,255,255,.88)",
+  backdropFilter: "blur(10px)",
   border: "1px solid #eadfc7",
   borderRadius: 24,
   padding: "20px 16px",
@@ -176,6 +177,8 @@ quickItem: {
   justifyContent: "center",
   fontWeight: 600,
   boxShadow: "0 6px 20px rgba(0,0,0,.04)",
+  transition: "all .25s ease",
+  minHeight: 110,
 },
 
 quickIcon: {
