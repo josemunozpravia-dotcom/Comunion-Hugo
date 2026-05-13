@@ -34,6 +34,9 @@ export default function App() {
           <h1 style={styles.title}>Primera Comunión de Hugo</h1>
           <p style={styles.name}>Hugo Muñoz García</p>
           <p style={styles.subtitle}>Un día muy especial para compartir en familia, con fe, ilusión y mucho cariño.</p>
+          <p style={styles.quote}>
+          “Un día para recordar, celebrar y compartir.”
+</p>
           <div style={styles.actions}>
             <a href="#agenda" style={styles.darkButton}>Ver agenda</a>
             <a href="#whatsapp" style={styles.lightButton}>Contactar con los papás de Hugo</a>
