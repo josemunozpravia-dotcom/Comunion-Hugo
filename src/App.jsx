@@ -179,6 +179,7 @@ quickItem: {
   boxShadow: "0 6px 20px rgba(0,0,0,.04)",
   transition: "all .25s ease",
   minHeight: 110,
+  cursor: "pointer",
 },
 
 quickIcon: {
@@ -239,7 +240,8 @@ quickIcon: {
   border: `1px solid ${border}`,
   borderRadius: 28,
   padding: 28,
-  boxShadow: "0 8px 28px rgba(0,0,0,.04)",
+  boxShadow: "0 10px 30px rgba(0,0,0,.06)",
+  transition: "transform .25s ease, box-shadow .25s ease",  
 },
   time: { color: gold, fontWeight: 700, marginBottom: 8 },
   cardTitle: { margin: "0 0 12px", fontSize: 22, color: "#1f1f1f" },
