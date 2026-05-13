@@ -77,7 +77,8 @@ export default function App() {
 </section>
         <section style={styles.countdown}>
           <div style={styles.sectionKicker}>Cuenta atrás</div>
-          <div style={styles.countNumber}>Faltan {daysLeft} días</div>
+          <div style={styles.countNumber}>{daysLeft} días</div>
+          <p style={styles.muted}>para la Primera Comunión de Hugo</p>
           <p style={styles.muted}>para la Primera Comunión de Hugo</p>
         </section>
 
@@ -231,6 +232,6 @@ quickIcon: {
   qrText: { color: "#ddd", fontSize: 14, lineHeight: 1.5 },
   whatsapp: { background: "#fff", border: `1px solid ${border}`, borderRadius: 32, padding: 42, textAlign: "center", marginBottom: 64 },
   final: { background: "#6f6254", color: "#ffffff", borderRadius: 32, padding: 40, textAlign: "center", fontSize: 24, fontWeight: 600 },
-  crossFinal: { color: "#d7bd86", fontSize: 32, marginBottom: 12 },
+  crossFinal: { color: "#e4c98f", fontSize: 32, marginBottom: 12 },
 };
 
