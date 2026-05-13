@@ -154,6 +154,33 @@ const border = "#eadfc7";
 const cream = "#f8f3ea";
 const soft = "#fbf7ef";
 const styles = {
+ quickNav: {
+  display: "grid",
+  gridTemplateColumns: "repeat(auto-fit, minmax(140px, 1fr))",
+  gap: 16,
+  marginBottom: 40,
+},
+
+quickItem: {
+  background: "#fff",
+  border: "1px solid #eadfc7",
+  borderRadius: 24,
+  padding: "20px 16px",
+  textAlign: "center",
+  textDecoration: "none",
+  color: "#2f2f2f",
+  display: "flex",
+  flexDirection: "column",
+  gap: 8,
+  alignItems: "center",
+  justifyContent: "center",
+  fontWeight: 600,
+  boxShadow: "0 6px 20px rgba(0,0,0,.04)",
+},
+
+quickIcon: {
+  fontSize: 28,
+},
   page: { background: cream, minHeight: "100vh", color: "#2f2f2f", fontFamily: "Arial, sans-serif" },
   hero: { maxWidth: 1180, margin: "0 auto", padding: "64px 20px", display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(320px, 1fr))", gap: 42, alignItems: "center" },
   badge: { display: "inline-block", padding: "10px 18px", border: `1px solid ${border}`, borderRadius: 999, background: "rgba(255,255,255,.8)", marginBottom: 24, fontSize: 14 },
