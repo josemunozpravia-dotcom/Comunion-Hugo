@@ -19,7 +19,7 @@ export default function App() {
     parking4: "https://share.google/xwRzhTrkKpXRwJUJv",
   };
 
-  const photos = "https://micloud.movistar.es/share/f/XK4SCxpfT2axvFq8Jon_zzkwMTI0MDEzNTg3NzFfMTg5MTYyNA";
+  const photos = "https://photos.app.goo.gl/7Gs7wHNna7fgGLmg9";
 
   const whatsappText = encodeURIComponent(
     "Hola, somos [nombre]. Queríamos indicar la elección del plato principal para la Primera Comunión de Hugo: Entrecot: [nº personas]. Dorada: [nº personas]. Menú infantil: [nº niños]. Muchas gracias."
